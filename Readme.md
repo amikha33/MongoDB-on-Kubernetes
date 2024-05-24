@@ -19,13 +19,14 @@ In Master Node :
 
 checkov -d . --framework kubernetes
 [ kubernetes framework ]: 100%|████████████████████|[8/8], Current File Scanned=Secret.yaml               
-
+```
        _               _              
    ___| |__   ___  ___| | _______   __
   / __| '_ \ / _ \/ __| |/ / _ \ \ / /
  | (__| | | |  __/ (__|   < (_) \ V / 
   \___|_| |_|\___|\___|_|\_\___/ \_/  
-                                      
+
+``` 
 By Prisma Cloud | version: 3.2.106 
 
 kubernetes scan results:
@@ -325,121 +326,101 @@ Check: CKV_K8S_30: "Apply security context to your containers"
         File: /StatefulSet.yaml:1-73
         Guide: https://docs.prismacloud.io/en/enterprise-edition/policy-reference/kubernetes-policies/kubernetes-policy-index/bc-k8s-28
 
-                Code lines for this resource are too many. Please use IDE of your choice to review the file.
 Check: CKV_K8S_28: "Minimize the admission of containers with the NET_RAW capability"
         FAILED for resource: StatefulSet.default.mongodb-test
         File: /StatefulSet.yaml:1-73
         Guide: https://docs.prismacloud.io/en/enterprise-edition/policy-reference/kubernetes-policies/kubernetes-policy-index/bc-k8s-27
 
-                Code lines for this resource are too many. Please use IDE of your choice to review the file.
 Check: CKV_K8S_38: "Ensure that Service Account Tokens are only mounted where necessary"
         FAILED for resource: StatefulSet.default.mongodb-test
         File: /StatefulSet.yaml:1-73
         Guide: https://docs.prismacloud.io/en/enterprise-edition/policy-reference/kubernetes-policies/kubernetes-policy-index/bc-k8s-35
 
-                Code lines for this resource are too many. Please use IDE of your choice to review the file.
 Check: CKV_K8S_15: "Image Pull Policy should be Always"
         FAILED for resource: StatefulSet.default.mongodb-test
         File: /StatefulSet.yaml:1-73
         Guide: https://docs.prismacloud.io/en/enterprise-edition/policy-reference/kubernetes-policies/kubernetes-policy-index/bc-k8s-14
 
-                Code lines for this resource are too many. Please use IDE of your choice to review the file.
 Check: CKV_K8S_37: "Minimize the admission of containers with capabilities assigned"
         FAILED for resource: StatefulSet.default.mongodb-test
         File: /StatefulSet.yaml:1-73
         Guide: https://docs.prismacloud.io/en/enterprise-edition/policy-reference/kubernetes-policies/kubernetes-policy-index/bc-k8s-34
 
-                Code lines for this resource are too many. Please use IDE of your choice to review the file.
 Check: CKV_K8S_31: "Ensure that the seccomp profile is set to docker/default or runtime/default"
         FAILED for resource: StatefulSet.default.mongodb-test
         File: /StatefulSet.yaml:1-73
         Guide: https://docs.prismacloud.io/en/enterprise-edition/policy-reference/kubernetes-policies/kubernetes-policy-index/bc-k8s-29
 
-                Code lines for this resource are too many. Please use IDE of your choice to review the file.
 Check: CKV_K8S_11: "CPU limits should be set"
         FAILED for resource: StatefulSet.default.mongodb-test
         File: /StatefulSet.yaml:1-73
         Guide: https://docs.prismacloud.io/en/enterprise-edition/policy-reference/kubernetes-policies/kubernetes-policy-index/bc-k8s-10
 
-                Code lines for this resource are too many. Please use IDE of your choice to review the file.
 Check: CKV_K8S_12: "Memory requests should be set"
         FAILED for resource: StatefulSet.default.mongodb-test
         File: /StatefulSet.yaml:1-73
         Guide: https://docs.prismacloud.io/en/enterprise-edition/policy-reference/kubernetes-policies/kubernetes-policy-index/bc-k8s-11
 
-                Code lines for this resource are too many. Please use IDE of your choice to review the file.
 Check: CKV_K8S_23: "Minimize the admission of root containers"
         FAILED for resource: StatefulSet.default.mongodb-test
         File: /StatefulSet.yaml:1-73
         Guide: https://docs.prismacloud.io/en/enterprise-edition/policy-reference/kubernetes-policies/kubernetes-policy-index/bc-k8s-22
 
-                Code lines for this resource are too many. Please use IDE of your choice to review the file.
 Check: CKV_K8S_13: "Memory limits should be set"
         FAILED for resource: StatefulSet.default.mongodb-test
         File: /StatefulSet.yaml:1-73
         Guide: https://docs.prismacloud.io/en/enterprise-edition/policy-reference/kubernetes-policies/kubernetes-policy-index/bc-k8s-12
 
-                Code lines for this resource are too many. Please use IDE of your choice to review the file.
 Check: CKV_K8S_8: "Liveness Probe Should be Configured"
         FAILED for resource: StatefulSet.default.mongodb-test
         File: /StatefulSet.yaml:1-73
         Guide: https://docs.prismacloud.io/en/enterprise-edition/policy-reference/kubernetes-policies/kubernetes-policy-index/bc-k8s-7
 
-                Code lines for this resource are too many. Please use IDE of your choice to review the file.
 Check: CKV_K8S_40: "Containers should run as a high UID to avoid host conflict"
         FAILED for resource: StatefulSet.default.mongodb-test
         File: /StatefulSet.yaml:1-73
         Guide: https://docs.prismacloud.io/en/enterprise-edition/policy-reference/kubernetes-policies/kubernetes-policy-index/bc-k8s-37
 
-                Code lines for this resource are too many. Please use IDE of your choice to review the file.
 Check: CKV_K8S_22: "Use read-only filesystem for containers where possible"
         FAILED for resource: StatefulSet.default.mongodb-test
         File: /StatefulSet.yaml:1-73
         Guide: https://docs.prismacloud.io/en/enterprise-edition/policy-reference/kubernetes-policies/kubernetes-policy-index/bc-k8s-21
 
-                Code lines for this resource are too many. Please use IDE of your choice to review the file.
 Check: CKV_K8S_43: "Image should use digest"
         FAILED for resource: StatefulSet.default.mongodb-test
         File: /StatefulSet.yaml:1-73
         Guide: https://docs.prismacloud.io/en/enterprise-edition/policy-reference/kubernetes-policies/kubernetes-policy-index/bc-k8s-39
 
-                Code lines for this resource are too many. Please use IDE of your choice to review the file.
 Check: CKV_K8S_10: "CPU requests should be set"
         FAILED for resource: StatefulSet.default.mongodb-test
         File: /StatefulSet.yaml:1-73
         Guide: https://docs.prismacloud.io/en/enterprise-edition/policy-reference/kubernetes-policies/kubernetes-policy-index/bc-k8s-9
 
-                Code lines for this resource are too many. Please use IDE of your choice to review the file.
 Check: CKV_K8S_29: "Apply security context to your pods and containers"
         FAILED for resource: StatefulSet.default.mongodb-test
         File: /StatefulSet.yaml:1-73
         Guide: https://docs.prismacloud.io/en/enterprise-edition/policy-reference/kubernetes-policies/kubernetes-policy-index/ensure-securitycontext-is-applied-to-pods-and-containers
 
-                Code lines for this resource are too many. Please use IDE of your choice to review the file.
 Check: CKV_K8S_20: "Containers should not run with allowPrivilegeEscalation"
         FAILED for resource: StatefulSet.default.mongodb-test
         File: /StatefulSet.yaml:1-73
         Guide: https://docs.prismacloud.io/en/enterprise-edition/policy-reference/kubernetes-policies/kubernetes-policy-index/bc-k8s-19
 
-                Code lines for this resource are too many. Please use IDE of your choice to review the file.
 Check: CKV_K8S_21: "The default namespace should not be used"
         FAILED for resource: StatefulSet.default.mongodb-test
         File: /StatefulSet.yaml:1-73
         Guide: https://docs.prismacloud.io/en/enterprise-edition/policy-reference/kubernetes-policies/kubernetes-policy-index/bc-k8s-20
 
-                Code lines for this resource are too many. Please use IDE of your choice to review the file.
 Check: CKV_K8S_9: "Readiness Probe Should be Configured"
         FAILED for resource: StatefulSet.default.mongodb-test
         File: /StatefulSet.yaml:1-73
         Guide: https://docs.prismacloud.io/en/enterprise-edition/policy-reference/kubernetes-policies/kubernetes-policy-index/bc-k8s-8
 
-                Code lines for this resource are too many. Please use IDE of your choice to review the file.
 Check: CKV_K8S_21: "The default namespace should not be used"
         FAILED for resource: ConfigMap.default.mongodb-configmap
         File: /ConfigMap.yaml:1-51
         Guide: https://docs.prismacloud.io/en/enterprise-edition/policy-reference/kubernetes-policies/kubernetes-policy-index/bc-k8s-20
 
-                Code lines for this resource are too many. Please use IDE of your choice to review the file.
 Check: CKV_K8S_21: "The default namespace should not be used"
         FAILED for resource: Secret.default.mongodb-secret
         File: /Secret.yaml:1-11
@@ -461,5 +442,4 @@ Check: CKV2_K8S_6: "Minimize the admission of pods which lack an associated Netw
         FAILED for resource: Pod.default.mongodb-test.app-database.selector-mongodb-test
         File: /StatefulSet.yaml:1-73
 
-                Code lines for this resource are too many. Please use IDE of your choice to review the file.
 
