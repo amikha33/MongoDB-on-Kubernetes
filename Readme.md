@@ -17,7 +17,10 @@ In Master Node :
 
 ### Checkov Logs 
 
-checkov -d . --framework kubernetes
+        checkov -d . --framework kubernetes
+
+
+
 [ kubernetes framework ]: 100%|████████████████████|[8/8], Current File Scanned=Secret.yaml               
 ```
        _               _              
